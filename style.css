@@ -1,0 +1,305 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  margin: 0;
+  color: #484848;
+  font-family: 'Open Sans', serif;
+}
+
+h1 {
+  font-size: 10em;
+  line-height: 1.05em;
+
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+p {
+  letter-spacing: 0.1px;
+  line-height: 24px;
+
+  padding: 35px 0;
+  margin: 0;
+}
+
+hr {
+  height: 1px;
+  background: #C0C0C0 center;
+  border-width: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  background: #3399ff;
+  border:5px solid #ccc;
+}
+
+iframe {
+  width: 100%;
+  height: 450px;
+  border:0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.category {
+  font-size: 1.1em;
+}
+
+footer {
+  height: 100%;
+  border-top: 1px solid #9B9B9B;
+  padding: 50px;
+  padding-bottom: 100px;
+}
+
+form {
+  border:5px solid #ccc;
+  color: red;
+  border-style: dotted;
+  background-color: purple;
+}
+
+input[type=email] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+
+/*-------------- FONT -----------------*/
+
+@font-face {
+  font-family: 'Open Sans', serif;
+}
+
+@font-face {
+  font-family: 'Market Deco', serif;
+  src: url("fonts/Market_Deco.ttf");
+}
+
+.market-deco {
+  font-family: 'Market Deco', serif;
+}
+
+.white {
+  color: white;
+}
+
+.text-shadow {
+  text-shadow: 0px 2px 4px #000000;
+
+}
+
+/*---------------------------------------*/
+
+.parallax {
+  background-image: url("img/hawaii.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-margin {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.center {
+  padding: 0 auto;
+  position: relative;
+  /*text-align: center;*/
+  vertical-align: middle;
+  /*display: inline-block;*/
+  /*padding-top: 50%;*/
+  /*transform: translateY(-50%);*/
+}
+
+#landing-page h3 {
+  text-align: left;
+  text-shadow: 0px 2px 2px rgba(0,0,0, 0.93);
+  font-weight: 300;
+  font-size: 1.5em;
+  
+  margin: 0;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.activity-wrapper{
+  width: 100%;
+  max-width: 1050px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 180px;
+}
+
+.activity-content {
+  padding: 0 15px;
+  width: 630px;
+  margin: 0;
+  display: inline-block;
+}
+
+.activity-content h3 {
+  margin-top: 35px;
+}
+
+.category {
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.activity-content h2 {
+  font-size: 35px;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+#stairway-to-heaven .category {
+  color: #E98000;
+}
+
+#poke .category {
+  color: #0227D0;
+}
+
+#tantalus .category {
+  color: #02D051;
+}
+
+
+/*SIDE BAR*/
+
+.sidebar {
+  padding: 35px 0;
+  width: 405px;
+}
+
+.content{
+  float: left;
+}
+
+.sidebar {
+  float: right;
+}
+
+
+/* The sticky */
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar h3 {
+  font-size: 1em;
+  padding: 8px 0 3px 0;
+}
+
+.activity-details {
+  padding: 0 0 0 25px;
+}
+
+.sidebar > img{
+  max-width: 100%;
+}
+
+.activity-details img{
+  height: 23px;
+}
+
+.left-cell {
+  width: 38.19px;
+  height: 38.19px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: center; 
+}
+
+td p{
+  padding: 0 0 0 13px;
+  display: inline-block;
+}
+
+.social-media li {
+  display: inline;
+}
+
+.social-media img {
+  height: 23px;
+  padding: 0 8px;
+}
+
+.hours table{
+  margin-left: 15px;
+  color: black;
+  border:5px solid #ccc;
+  border-collapse: collapse;
+  background-color: orange;
+}
+
+
+.scroll-box {
+  height:120px;
+  width:50%;
+  margin: 0 auto;
+  border:5px solid #ccc;
+  border-style: dotted;
+  font:16px Georgia, Garamond, Serif;
+  overflow:auto;
+  box-shadow: 5px 10px #888888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
